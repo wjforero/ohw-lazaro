@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cgl", "cgl.vcproj", "{FED44234-3530-43D7-9691-D75D03E54F3B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glviewer", "..\cglviewer\cglviewer.vcproj", "{9817DA31-D35C-4D66-87FE-6CC967CBAE6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = MesaDebug
+		ConfigName.2 = MesaRelease
+		ConfigName.3 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FED44234-3530-43D7-9691-D75D03E54F3B}.Debug.ActiveCfg = Debug|Win32
+		{FED44234-3530-43D7-9691-D75D03E54F3B}.Debug.Build.0 = Debug|Win32
+		{FED44234-3530-43D7-9691-D75D03E54F3B}.MesaDebug.ActiveCfg = Debug|Win32
+		{FED44234-3530-43D7-9691-D75D03E54F3B}.MesaDebug.Build.0 = Debug|Win32
+		{FED44234-3530-43D7-9691-D75D03E54F3B}.MesaRelease.ActiveCfg = Release|Win32
+		{FED44234-3530-43D7-9691-D75D03E54F3B}.MesaRelease.Build.0 = Release|Win32
+		{FED44234-3530-43D7-9691-D75D03E54F3B}.Release.ActiveCfg = Release|Win32
+		{FED44234-3530-43D7-9691-D75D03E54F3B}.Release.Build.0 = Release|Win32
+		{9817DA31-D35C-4D66-87FE-6CC967CBAE6C}.Debug.ActiveCfg = MesaDebug|Win32
+		{9817DA31-D35C-4D66-87FE-6CC967CBAE6C}.Debug.Build.0 = MesaDebug|Win32
+		{9817DA31-D35C-4D66-87FE-6CC967CBAE6C}.MesaDebug.ActiveCfg = MesaDebug|Win32
+		{9817DA31-D35C-4D66-87FE-6CC967CBAE6C}.MesaDebug.Build.0 = MesaDebug|Win32
+		{9817DA31-D35C-4D66-87FE-6CC967CBAE6C}.MesaRelease.ActiveCfg = MesaRelease|Win32
+		{9817DA31-D35C-4D66-87FE-6CC967CBAE6C}.MesaRelease.Build.0 = MesaRelease|Win32
+		{9817DA31-D35C-4D66-87FE-6CC967CBAE6C}.Release.ActiveCfg = MesaRelease|Win32
+		{9817DA31-D35C-4D66-87FE-6CC967CBAE6C}.Release.Build.0 = MesaRelease|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
